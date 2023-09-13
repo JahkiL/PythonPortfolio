@@ -1,0 +1,25 @@
+# print ("Enter Your Name...")
+
+name = input()
+
+print("Hello", name)
+
+age = input("Age: ")
+print("You are", age, "years old")
+
+age_number = int(age)
+next_year = age_number + 1
+print("Next year you'll be", next_year)
+
+
+price = float(input("Price: "))
+
+after_taxes = price * 1.10
+
+print("After Tax:", after_taxes)
+
+
+
+
+
+
