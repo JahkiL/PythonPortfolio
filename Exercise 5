@@ -1,0 +1,23 @@
+print("Name:", first_name, "Age:", age)
+
+print(1,2,3,4,5)
+
+print(1,2,3,4,5,sep=",")
+
+print("On the", end=" ")
+print("same line")
+
+text_file = open("file.txt", "w")
+
+print("Test 1 2 3", file=text_file)
+
+text_file.close()
+
+import time
+
+print("output X", end=",", flush=True)
+
+time.sleep(5)
+
+print("then Y!")
+
